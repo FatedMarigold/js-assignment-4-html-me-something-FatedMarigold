@@ -27,10 +27,18 @@ h2 a{
     color: teal;
 }
 
+.enPassantWrap {
+    display: flex;
+    gap: 15px;
+}
+
+#enPassantP {
+    flex-grow: 1;
+}
+
 #enPassantI {
-    float: right;
+    flex-grow: 0;
     width: 200px;
-    margin-left: 10px;
 }
 
 footer {
